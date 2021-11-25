@@ -13,7 +13,7 @@ namespace ComSim {
      struct LinearEq {
         const long double k;
         const long double m;
-        const long double b;
+        const long double r;
     };
 
     class AntennaData {
