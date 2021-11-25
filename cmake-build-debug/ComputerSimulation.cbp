@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/vitalii/Projects/ComputerSimulation/AntennasData.cpp">
+			<Option target="lab7_code"/>
+		</Unit>
+		<Unit filename="/home/vitalii/Projects/ComputerSimulation/AntennasData.h">
+			<Option target="lab7_code"/>
+		</Unit>
 		<Unit filename="/home/vitalii/Projects/ComputerSimulation/main.cpp">
 			<Option target="lab7_code"/>
 		</Unit>

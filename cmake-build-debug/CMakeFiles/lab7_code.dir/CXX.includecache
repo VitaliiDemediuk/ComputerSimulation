@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/vitalii/Projects/ComputerSimulation/AntennasData.cpp
+AntennasData.h
+/home/vitalii/Projects/ComputerSimulation/AntennasData.h
+
+/home/vitalii/Projects/ComputerSimulation/AntennasData.h
+cstddef
+-
+
+/home/vitalii/Projects/ComputerSimulation/main.cpp
+iostream
+-
+cmath
+-
+istream
+-
+iomanip
+-
+mathlib.h
+/home/vitalii/Projects/ComputerSimulation/mathlib.h
+AntennasData.h
+/home/vitalii/Projects/ComputerSimulation/AntennasData.h
+
+/home/vitalii/Projects/ComputerSimulation/mathlib.h
+functional
+-
+

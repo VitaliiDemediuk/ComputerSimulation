@@ -3,4 +3,4 @@ project(ComputerSimulation)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(lab7_code main.cpp mathlib.cpp mathlib.h)
+add_executable(lab7_code main.cpp mathlib.cpp mathlib.h AntennasData.cpp AntennasData.h)

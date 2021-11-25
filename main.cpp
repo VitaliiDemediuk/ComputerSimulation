@@ -3,6 +3,7 @@
 #include <istream>
 #include <iomanip>
 #include "mathlib.h"
+#include "AntennasData.h"
 
 namespace {
     template <typename T>
@@ -13,11 +14,8 @@ namespace {
     }
 }
 
-void Task () {
-
-}
-
 int main() {
-    Task();
+    using namespace ComSim;
+
     return 0;
 }

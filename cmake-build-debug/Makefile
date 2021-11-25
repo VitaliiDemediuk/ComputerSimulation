@@ -129,6 +129,30 @@ lab7_code/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab7_code.dir/build.make CMakeFiles/lab7_code.dir/build
 .PHONY : lab7_code/fast
 
+AntennasData.o: AntennasData.cpp.o
+.PHONY : AntennasData.o
+
+# target to build an object file
+AntennasData.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab7_code.dir/build.make CMakeFiles/lab7_code.dir/AntennasData.cpp.o
+.PHONY : AntennasData.cpp.o
+
+AntennasData.i: AntennasData.cpp.i
+.PHONY : AntennasData.i
+
+# target to preprocess a source file
+AntennasData.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab7_code.dir/build.make CMakeFiles/lab7_code.dir/AntennasData.cpp.i
+.PHONY : AntennasData.cpp.i
+
+AntennasData.s: AntennasData.cpp.s
+.PHONY : AntennasData.s
+
+# target to generate assembly for a file
+AntennasData.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab7_code.dir/build.make CMakeFiles/lab7_code.dir/AntennasData.cpp.s
+.PHONY : AntennasData.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -186,6 +210,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... lab7_code"
+	@echo "... AntennasData.o"
+	@echo "... AntennasData.i"
+	@echo "... AntennasData.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

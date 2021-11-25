@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/vitalii/Projects/ComputerSimulation/AntennasData.cpp" "/home/vitalii/Projects/ComputerSimulation/cmake-build-debug/CMakeFiles/lab7_code.dir/AntennasData.cpp.o"
   "/home/vitalii/Projects/ComputerSimulation/main.cpp" "/home/vitalii/Projects/ComputerSimulation/cmake-build-debug/CMakeFiles/lab7_code.dir/main.cpp.o"
   "/home/vitalii/Projects/ComputerSimulation/mathlib.cpp" "/home/vitalii/Projects/ComputerSimulation/cmake-build-debug/CMakeFiles/lab7_code.dir/mathlib.cpp.o"
   )
