@@ -29,5 +29,5 @@ constexpr long double AntennaData::angle() const noexcept
 constexpr LinearEq AntennaData::linearEq() const noexcept
 {
     const long double t = std::tan(point_.x);
-    return {t, 1, }
+    return {t, 1, point_.y - t*point_.x};
 }
