@@ -91,12 +91,6 @@
 		<Unit filename="/home/vitalii/Projects/ComputerSimulation/main.cpp">
 			<Option target="lab7_code"/>
 		</Unit>
-		<Unit filename="/home/vitalii/Projects/ComputerSimulation/mathlib.cpp">
-			<Option target="lab7_code"/>
-		</Unit>
-		<Unit filename="/home/vitalii/Projects/ComputerSimulation/mathlib.h">
-			<Option target="lab7_code"/>
-		</Unit>
 		<Unit filename="/home/vitalii/Projects/ComputerSimulation/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

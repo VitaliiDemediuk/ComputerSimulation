@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/vitalii/Projects/ComputerSimulation/AntennasData.cpp
-AntennasData.h
-/home/vitalii/Projects/ComputerSimulation/AntennasData.h
-
 /home/vitalii/Projects/ComputerSimulation/AntennasData.h
 cstddef
 -
@@ -17,18 +13,10 @@ cstddef
 /home/vitalii/Projects/ComputerSimulation/main.cpp
 iostream
 -
-cmath
--
 istream
 -
-iomanip
+vector
 -
-mathlib.h
-/home/vitalii/Projects/ComputerSimulation/mathlib.h
 AntennasData.h
 /home/vitalii/Projects/ComputerSimulation/AntennasData.h
-
-/home/vitalii/Projects/ComputerSimulation/mathlib.h
-functional
--
 

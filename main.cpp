@@ -1,8 +1,6 @@
 #include <iostream>
-#include <cmath>
 #include <istream>
-#include <iomanip>
-#include "mathlib.h"
+#include <vector>
 #include "AntennasData.h"
 
 namespace {
@@ -14,7 +12,7 @@ namespace {
     }
 }
 
-ComSim::Point Solve(const std::vector<ComSim::LinearEq>& linEqs) {
+Point Solve(const std::vector<LinearEq>& linEqs) {
     long double phi_00 = 0;
     long double phi_01 = 0;
     long double phi_11 = 0;
@@ -27,11 +25,12 @@ ComSim::Point Solve(const std::vector<ComSim::LinearEq>& linEqs) {
         R_2 += eq.r * eq.k;
         R_2 += eq.r * eq.m;
     }
-    
+    const long double x = (R_1/phi_01 - R_2/phi_11)/(phi_00/phi_01 - phi_01/phi_11);
+    const long double y = (R_1/phi_00 - R_2/phi_01)/(phi_01/phi_00 - phi_11/phi_01);
+    return {x, y};
 }
 
 int main() {
-    using namespace ComSim;
     const auto n = read_param<size_t>("Antenna numbers = ");
     std::vector<LinearEq> linEq;
     linEq.reserve(n);
@@ -41,7 +40,7 @@ int main() {
         const auto alpha = read_param<size_t>("alpha = ");
         linEq.emplace_back(AntennaData(x, y, alpha).linearEq());
     }
-    const Point p = Solve();
+    const Point p = Solve(linEq);
     std::cout << p.x << ' ' << p.y << std::endl;
     return 0;
 }

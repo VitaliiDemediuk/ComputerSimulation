@@ -177,30 +177,6 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab7_code.dir/build.make CMakeFiles/lab7_code.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-mathlib.o: mathlib.cpp.o
-.PHONY : mathlib.o
-
-# target to build an object file
-mathlib.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab7_code.dir/build.make CMakeFiles/lab7_code.dir/mathlib.cpp.o
-.PHONY : mathlib.cpp.o
-
-mathlib.i: mathlib.cpp.i
-.PHONY : mathlib.i
-
-# target to preprocess a source file
-mathlib.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab7_code.dir/build.make CMakeFiles/lab7_code.dir/mathlib.cpp.i
-.PHONY : mathlib.cpp.i
-
-mathlib.s: mathlib.cpp.s
-.PHONY : mathlib.s
-
-# target to generate assembly for a file
-mathlib.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab7_code.dir/build.make CMakeFiles/lab7_code.dir/mathlib.cpp.s
-.PHONY : mathlib.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -216,9 +192,6 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... mathlib.o"
-	@echo "... mathlib.i"
-	@echo "... mathlib.s"
 .PHONY : help
 
 

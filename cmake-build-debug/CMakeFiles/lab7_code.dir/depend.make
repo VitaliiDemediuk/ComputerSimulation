@@ -6,8 +6,4 @@ CMakeFiles/lab7_code.dir/AntennasData.cpp.o: \
  ../AntennasData.h
 CMakeFiles/lab7_code.dir/main.cpp.o: \
  ../AntennasData.h \
- ../main.cpp \
- ../mathlib.h
-CMakeFiles/lab7_code.dir/mathlib.cpp.o: \
- ../mathlib.cpp \
- ../mathlib.h
+ ../main.cpp
